@@ -1,0 +1,20 @@
+<header class = "header">
+    <h1>{{title}}</h1>
+    <button (click)="resetVM()" class="button">Click to Reset VM</button>
+    <button (click)="submitLab()" class = "button">Click to Submit Lab</button>
+</header>
+<div class = "lab">
+    <div class = "labContainer">
+        <div class = "labText">
+            <h2>Step {{currentStep}}</h2>
+            <p>{{Steps[currentStep.toString()]}}</p>
+            <div class = "buttonContainer">
+                <button (click)="prevStep()" class="button">Previous Step</button>
+                <button (click)="nextStep()" class="button">Next Step</button>
+            </div>
+        </div>
+        <div class = "labText">
+            <img src = "/vm-thumbnail.png" alt="lab image" class = "labImage">
+        </div>
+    </div>
+</div>

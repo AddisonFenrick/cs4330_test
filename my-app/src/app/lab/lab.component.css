@@ -1,0 +1,75 @@
+.header{
+    text-align: center;
+    margin: 20px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(55,55,61);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 0;
+    color: white;
+
+}
+.button{
+    background-color: rgb(55,55,61);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    align-items: space-between;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.lab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.labContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.labText {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.labText h2 {
+    margin-top: 0;
+}
+
+.labText textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.labImage {
+    flex: 1;
+    width: 100%;
+}
+
+.buttonContainer{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
